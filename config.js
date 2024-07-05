@@ -29,7 +29,7 @@ export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[75px] w-[7
 export const APP_NAME = 'Second Life Ranker';
 export const NavbarName = "Second Life Ranker";
 
-export const APP_DESCRIPTION = `Read ${MANGA_NAME} manga online at ${DOMAIN}. Yeon-woo, who enters the Tower of the Sun God after discovering his twin brother Jeong-woo's death in the competition. Using Jeong-woo's diary, Yeon-woo seeks revenge, grows stronger, and uncovers hidden secrets while confronting powerful enemies and forming alliances.`;
+export const APP_DESCRIPTION = `Read ${MANGA_NAME} manhwa or manga all chapters online. Yeon-woo, who enters the Tower of the Sun God after discovering his twin brother Jeong-woo's death in the competition. Using Jeong-woo's diary, Yeon-woo seeks revenge, grows stronger, and uncovers hidden secrets while confronting powerful enemies and forming alliances.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 
