@@ -158,7 +158,7 @@ export default function Home() {
 
 
 
-        <div className="max-w-[1250px] mx-auto p-4">
+        {/* <div className="max-w-[1250px] mx-auto p-4">
           <h1 className="text-3xl font-bold mb-6 text-center">Read More Mahwas</h1>
           <div className="flex flex-wrap gap-12 justify-center">
             {filteredMangaLinks.map((item, index) => (
@@ -172,7 +172,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
 
 
