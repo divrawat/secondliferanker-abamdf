@@ -154,7 +154,7 @@ export async function getStaticProps({ params }) {
 
 const getImageUrls = (chapterNumber, numImages) => {
     const imageUrls = [];
-    const chapterImagesFolder = `${DOMAIN}/${IMAGE_PREFIX}/chapter-${chapterNumber}`;
+    const chapterImagesFolder = `${IMAGE_PREFIX}/chapter-${chapterNumber}`;
     for (let i = 1; i <= numImages; i++) {
         const imageUrl = `${chapterImagesFolder}/${i}.webp`;
         imageUrls.push(imageUrl);
