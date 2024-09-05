@@ -3,6 +3,8 @@
 export const DOMAIN = 'https://secondliferanker.adoptedbyamurderousdukefamily.in.net';
 
 export const MANGA_DESCRIPTION = `<a href="${DOMAIN}"><u>Second Life Ranker</u></a> follows Yeon-woo, who enters the Tower of the Sun God after discovering his twin brother Jeong-woo's death in the competition. Using Jeong-woo's diary, Yeon-woo seeks revenge, grows stronger, and uncovers hidden secrets while confronting powerful enemies and forming alliances.`;
+export const IMAGES_SUBDOMAIN = 'https://images.mangachimp.com';
+
 
 export const MANGA_NAME = 'Second Life Ranker';
 export const MANGA_AUTHOR = 'Nong Nong';

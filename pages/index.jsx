@@ -5,6 +5,7 @@ import { DOMAIN, MANGA_NAME, MANGA_DESCRIPTION, MANGA_AUTHOR, MANGA_RELEASE, MAN
 import Head from "next/head";
 import dynamic from "next/dynamic";
 const AdSense = dynamic(() => import('@/components/Adsense'), { ssr: false });
+const Popup = dynamic(() => import('@/components/Popup'), { ssr: false });
 
 export default function Home() {
 
@@ -80,6 +81,7 @@ export default function Home() {
     <>
       {head()}
       <Navbar />
+      <Popup />
       <article>
 
         <div className="md:flex md:mb-[60px] mb-5 pt-3 relative bg-[black]">
