@@ -61,7 +61,7 @@ export default function Popup() {
                     </div>
 
                     <div>
-                        <a href="https://discord.gg/Bgjn4G6v" className="flex gap-1 items-center bg-indigo-500 text-white rounded-md px-2 py-1">
+                        <a href="https://discord.gg/zK7s4FSxrJ" className="flex gap-1 items-center bg-indigo-500 text-white rounded-md px-2 py-1">
                             <span><FaDiscord /></span>
                             <span className={`${roboto.className} text-[16px] tracking-wider`}>Discord</span>
                         </a>
