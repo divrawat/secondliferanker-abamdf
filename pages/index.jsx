@@ -84,6 +84,8 @@ export default function Home() {
       <Popup />
       <article>
 
+        <AdSense />
+
         <div className="md:flex md:mb-[60px] mb-5 pt-3 relative bg-[black]">
           <div className="absolute inset-0 bg-cover bg-no-repeat bg-center" style={{ backgroundImage: `url(${BEHIND_COVER_IMG})`, opacity: '0.10' }}></div>
 
